@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#^syntax detection
+forge "https://forgeapi.puppetlabs.com"
+
+mod 'puppetlabs-apache', '1.10.0'
+mod 'puppetlabs-firewall', '1.8.1'
+mod 'php',
+  :git => 'https://github.com/voxpupuli/puppet-php'
+mod 'puppetlabs-mysql', '3.10.0'
+mod 'saz-memcached', '3.0.1'
